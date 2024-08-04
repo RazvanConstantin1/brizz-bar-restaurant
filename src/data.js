@@ -48,9 +48,9 @@ export const socialData = [
 
 export const aboutData = {
   pretitle: "our story",
-  title: "who we are",
+  title: "Who are we?",
   subtitle:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.",
+    'At "BrizzBar Cafe," we are a passionate team dedicated to delivering exceptional culinary experiences to our guests. Our mission is to create a welcoming environment where friends and family can come together to enjoy a diverse range of delicious dishes, from our signature pizzas and gourmet burgers to the freshest seafood. With a focus on quality, freshness, and innovation, we strive to make every visit special. Our talented chefs and friendly staff are committed to providing top-notch service and unforgettable meals, making "BrizzBar Cafe" the go-to destination for food lovers in the city.',
   btnText: "find out more",
   image: AboutImg,
 };
