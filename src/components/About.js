@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <section className="min-h-[620px]">
-      <div className="container mx-auto min-h-[620px] mt-8">
+      <div className="container mx-auto min-h-[620px] mt-4">
         {/* text and image wrapper */}
         <motion.div
           variants={staggerContainer}
