@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Playfair Display",
-      secondary: "Lato",
+      primary: "Ubuntu",
+      secondary: "Sans-serif",
     },
     container: {
       padding: {
@@ -27,8 +27,8 @@ module.exports = {
           100: "#e4e4e3",
         },
         accent: {
-          DEFAULT: "#fe7634",
-          hover: "#F55304",
+          default: "#fbb65d",
+          hover: "#b07f41",
         },
       },
       backgroundImage: {
