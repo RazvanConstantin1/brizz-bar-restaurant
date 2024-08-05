@@ -91,9 +91,9 @@ export const menuData = {
 export const teamData = {
   pretitle: "our team",
   title: "meet our chef",
-  sub1: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.",
-  sub2: "Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.",
-  name: "sara peter",
+  sub1: "Chef Antonio Russo, the culinary genius behind BrizzBar Cafe, brings over 20 years of experience in the art of cooking. Specializing in pizza, seafood, and gourmet burgers, Chef Antonio is renowned for his innovative recipes and dedication to quality.",
+  sub2: "Trained in Italy and having worked in top kitchens around the world, he combines traditional techniques with modern flavors to create unforgettable dishes. His passion for fresh, high-quality ingredients and his commitment to culinary excellence make every meal at BrizzBar Cafe a masterpiece.",
+  name: "antonio russo",
   occupation: "executive chef",
   signatureImg: SignatureImg,
   chefImg: ChefImg,
@@ -106,21 +106,21 @@ export const testimonialData = {
   slider: [
     {
       message:
-        "BrizzBar Cafe is our favorite spot in the city! The pizzas are always perfectly cooked, the burgers are juicy, and the seafood is incredibly fresh. The friendly staff makes every visit a pleasure.",
+        "BrizzBar Cafe is our favorite spot in the city! The pizzas are always perfectly cooked, the burgers are juicy, and the seafood is incredibly fresh.",
       image: Avatar1,
       name: "Jonas R.",
       occupation: "Engineer",
     },
     {
       message:
-        "I can't get enough of BrizzBar Cafe! Their gourmet burgers are out of this world, and the seafood platter is a must-try. The cozy atmosphere and excellent service keep me coming back",
+        "I can't get enough of BrizzBar Cafe! Their gourmet burgers are out of this world, and the seafood platter is a must-try.",
       image: Avatar2,
       name: "John Doe",
       occupation: "Student",
     },
     {
       message:
-        "Dining at BrizzBar Cafe is always a delightful experience. The variety of dishes, from their delicious pizzas to the mouthwatering seafood, ensures there's something for everyone. Highly recommended!",
+        "The variety of dishes, from their delicious pizzas to the mouthwatering seafood, ensures there's something for everyone. Highly recommended!",
       image: Avatar3,
       name: "Henry A.",
       occupation: "Manager",
