@@ -27,8 +27,8 @@ const Testimonial = () => {
           className="text-center capitalize flex flex-col items-center"
         >
           <h2 className="h2 text-white">{title}</h2>
-          <p className="text-white/70 capitalize mb-8">{subtitle}</p>
-          <div>
+          <p className="text-white/70 capitalize mb-4">{subtitle}</p>
+          <div className="mb-8">
             <img src={modelImg} alt="modelImg" />
           </div>
         </motion.div>

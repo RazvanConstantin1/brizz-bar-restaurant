@@ -106,24 +106,24 @@ export const testimonialData = {
   slider: [
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "BrizzBar Cafe is our favorite spot in the city! The pizzas are always perfectly cooked, the burgers are juicy, and the seafood is incredibly fresh. The friendly staff makes every visit a pleasure.",
       image: Avatar1,
-      name: "Rick Thompson",
-      occupation: "CEO of Delightful",
+      name: "Jonas R.",
+      occupation: "Engineer",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "I can't get enough of BrizzBar Cafe! Their gourmet burgers are out of this world, and the seafood platter is a must-try. The cozy atmosphere and excellent service keep me coming back",
       image: Avatar2,
       name: "John Doe",
-      occupation: "CEO of Delightful",
+      occupation: "Student",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "Dining at BrizzBar Cafe is always a delightful experience. The variety of dishes, from their delicious pizzas to the mouthwatering seafood, ensures there's something for everyone. Highly recommended!",
       image: Avatar3,
       name: "Henry A.",
-      occupation: "CEO of Delightful",
+      occupation: "Manager",
     },
   ],
 };
