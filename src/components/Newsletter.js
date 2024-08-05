@@ -20,7 +20,7 @@ const Newsletter = () => {
         <form className="flex flex-col lg:flex-row lg:gap-x-[10px] gap-y-4">
           <input
             type="text"
-            className="input bg-transparent placeholder:font-light placeholder:text-white/20 focus:ring-1 focus:ring-accent-default border border-white/20 transition-all"
+            className="input text-white bg-transparent placeholder:font-light placeholder:text-white/20 focus:ring-1 focus:ring-accent-default border border-white/20 transition-all"
             placeholder={placeholder}
           />
           <button className="btn capitalize w-full lg:max-w-[204px]">

@@ -150,7 +150,7 @@ export const footerData = {
     phone: "(201)256-3689",
   },
   hours: {
-    title: "working hours",
+    title: "Working hours",
     program: [
       {
         days: "monday - friday",
