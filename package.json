@@ -1,6 +1,7 @@
 {
-  "name": "restaurant",
+  "name": "BrizzBar Cafe",
   "version": "0.1.0",
+  "homepage": "https://github.com/RazvanConstantin1/brizz-bar-restaurant",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +41,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "framer-motion": "^7.5.3",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.17",
     "react-datepicker": "^4.8.0",
     "react-icons": "^4.4.0",
