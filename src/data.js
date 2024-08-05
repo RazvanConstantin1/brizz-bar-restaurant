@@ -50,7 +50,7 @@ export const aboutData = {
   pretitle: "our story",
   title: "Who are we?",
   subtitle:
-    'At "BrizzBar Cafe," we are a passionate team dedicated to delivering exceptional culinary experiences to our guests. Our mission is to create a welcoming environment where friends and family can come together to enjoy a diverse range of delicious dishes, from our signature pizzas and gourmet burgers to the freshest seafood. With a focus on quality, freshness, and innovation, we strive to make every visit special. Our talented chefs and friendly staff are committed to providing top-notch service and unforgettable meals, making "BrizzBar Cafe" the go-to destination for food lovers in the city.',
+    'At "BrizzBar Cafe," we are a passionate team dedicated to delivering exceptional culinary experiences to our guests. With a focus on quality, freshness, and innovation, we strive to make every visit special. Our talented chefs and friendly staff are committed to providing top-notch service and unforgettable meals, making "BrizzBar Cafe" the go-to destination for food lovers in the city.',
   btnText: "find out more",
   image: AboutImg,
 };

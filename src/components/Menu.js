@@ -101,7 +101,7 @@ const Menu = () => {
               })}
             </div>
           </div>
-          <button className="btn mx-auto capitalize">{btnText}</button>
+          <button className="btn mx-auto capitalize mb-8">{btnText}</button>
         </div>
       </motion.div>
     </section>
