@@ -72,7 +72,7 @@ const Header = () => {
         animate={"show"}
         className="mx-auto container"
       >
-        <div className="flex justify-between items-center px-4 lg:px-0 relative text-white lg:ml-32 md:ml-0">
+        <div className="flex justify-between items-center px-4 lg:px-0 relative text-white">
           {/* menu button */}
           <motion.div
             className={`${
@@ -103,7 +103,10 @@ const Header = () => {
             ></motion.div>
           </motion.div>
           {/* logo */}
-          <motion.div variants={fadeIn("down", "tween", 1.2, 1.4)}>
+          <motion.div
+            className="order-1 lg:order-none lg:ml-[9rem]"
+            variants={fadeIn("down", "tween", 1.2, 1.4)}
+          >
             <a href="#" alt="">
               {/* if header is active make logo 90 x 90 else 107 x 107 */}
               <img
