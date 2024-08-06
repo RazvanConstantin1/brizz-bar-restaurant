@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 
 // import variants
 import { staggerContainer, fadeIn } from "../variants.js";
+import { NavLink } from "react-router-dom";
 
 const headerVariants = {
   hidden: {
@@ -113,7 +114,7 @@ const Header = () => {
             className="order-1 lg:order-none lg:ml-[9rem]"
             variants={fadeIn("down", "tween", 1.2, 1.4)}
           >
-            <a href="#" alt="">
+            <NavLink to="/" alt="">
               {/* if header is active make logo 90 x 90 else 107 x 107 */}
               <img
                 className={`${
@@ -122,7 +123,7 @@ const Header = () => {
                 src={Logo}
                 alt=""
               />
-            </a>
+            </NavLink>
           </motion.div>
           {/* social icons */}
           <motion.div

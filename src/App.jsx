@@ -7,19 +7,25 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Menu from "./pages/Menu.jsx";
 import Contact from "./pages/Contact.jsx";
+import AppLayout from "./pages/AppLayout.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/menu",
-    element: <Menu />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/menu",
+        element: <Menu />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ],
   },
 ]);
 

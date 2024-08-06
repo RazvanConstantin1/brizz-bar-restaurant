@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section id="#hero" className="bg-hero bg-cover bg-center">
       {/* Header */}
-      <Header />
+      {/* <Header /> */}
       <div className="container backdrop-brightness-[.35] mx-auto min-h-[980px] flex justify-center items-center">
         {/* text */}
         <motion.div

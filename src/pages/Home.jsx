@@ -10,14 +10,12 @@ import Testimonial from "../components/Testimonial.jsx";
 function Home() {
   return (
     <div>
-      <Header />
       <Hero />
       <About />
       <FeaturedMenu />
       <Team />
       <Testimonial />
       <Reservation />
-      <Footer />
     </div>
   );
 }
