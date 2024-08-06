@@ -52,17 +52,23 @@ const Header = () => {
   // nav state
   const [nav, setNav] = useState(false);
 
+  // render header conditionally based on routing address
+  const pathname = window.location.pathname;
+
   // event listener
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
+      // render header conditionally based on routing address
+      if (pathname === "/")
+        window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
     });
   });
 
   return (
     <motion.header
       variants={headerVariants}
-      initial="hidden"
+      // render header conditionally based on routing address
+      initial={pathname !== "/" ? "show" : "hidden"}
       animate={isActive ? "show" : ""}
       className="bg-pink-200 fixed w-full max-w-[1800px] z-50 py-4"
     >
@@ -111,7 +117,7 @@ const Header = () => {
               {/* if header is active make logo 90 x 90 else 107 x 107 */}
               <img
                 className={`${
-                  isActive ? "w-[105px] h-[105px]" : "w-[120px] h-[120px]"
+                  isActive ? "w-[95px] h-[95px]" : "w-[105px] h-[105px]"
                 }`}
                 src={Logo}
                 alt=""
