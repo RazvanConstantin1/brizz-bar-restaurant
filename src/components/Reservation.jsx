@@ -16,7 +16,7 @@ import TimePicker from "react-time-picker";
 import "../timepicker.css";
 
 // import icons
-import { FaUser, FaCalendar, FaClock, FaUsers } from "react-icons/fa";
+import { FaCalendar, FaClock, FaUsers } from "react-icons/fa";
 
 // import motion
 import { motion } from "framer-motion";
@@ -35,7 +35,10 @@ const Reservation = () => {
   const [value, setValue] = useState("10:00");
 
   return (
-    <section className="relative top-96 z-30 pb-20 lg:py-[100px]">
+    <section
+      id="reservation"
+      className="relative top-96 z-30 pb-20 lg:py-[100px]"
+    >
       <div className="container mx-auto">
         {/* text */}
         <motion.div

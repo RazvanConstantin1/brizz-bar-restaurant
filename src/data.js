@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaPinterestP,
   FaDiscord,
+  FaPhone,
 } from "react-icons/fa";
 // import images
 import AboutImg from "../src/assets/img/about/plate.png";
@@ -21,13 +22,14 @@ import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
 export const navData = [
-  { href: "/", name: "home" },
-  { href: "/", name: "about" },
-  { href: "/", name: "menu" },
-  { href: "/", name: "team" },
-  { href: "/", name: "testimonials" },
-  { href: "/", name: "book a table" },
-  { href: "/", name: "contact" },
+  { href: "#", name: "home" },
+  { href: "#about", name: "about" },
+  { href: "#featuredMenu", name: "featured Menu" },
+  { href: "#team", name: "team" },
+  { href: "#testimonials", name: "testimonials" },
+  { href: "#reservation", name: "reservation" },
+  { href: "/contact", name: "contact" },
+  { href: "/menu", name: "Menu" },
 ];
 
 export const heroData = {
@@ -172,4 +174,8 @@ export const footerData = {
       { href: "/", icon: <FaDiscord /> },
     ],
   },
+};
+
+export const callData = {
+  icon: <FaPhone />,
 };

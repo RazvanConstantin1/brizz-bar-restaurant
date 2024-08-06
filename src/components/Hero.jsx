@@ -2,7 +2,7 @@ import React from "react";
 // import data
 import { heroData } from "../data.js";
 // import components
-import Header from "./Header.js";
+import Header from "./Header.jsx";
 // import motion
 import { motion } from "framer-motion";
 // import variants
@@ -12,7 +12,7 @@ const Hero = () => {
   // destructure hero data
   const { pretitle, title, subtitle, btnText } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-center">
+    <section id="#hero" className="bg-hero bg-cover bg-center">
       {/* Header */}
       <Header />
       <div className="container backdrop-brightness-[.35] mx-auto min-h-[980px] flex justify-center items-center">

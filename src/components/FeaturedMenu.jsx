@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 // import variants
 import { fadeIn, staggerContainer } from "../variants.js";
 
-const Menu = () => {
+const FeaturedMenu = () => {
   // destructure menu data
 
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
   return (
-    <section className="bg-accent-default min-h-[780px]">
+    <section id="featuredMenu" className="bg-accent-default min-h-[780px]">
       {/* background */}
       <div className="h-[780px] bg-menu absolute w-full max-w-[1800px] -z-0"></div>
       {/* text */}
@@ -108,4 +108,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default FeaturedMenu;

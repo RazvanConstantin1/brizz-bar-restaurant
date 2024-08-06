@@ -22,7 +22,10 @@ const Team = () => {
     chefImg,
   } = teamData;
   return (
-    <section className="relative top-96 z-10 lg:top-[480px] min-h-[720px]">
+    <section
+      id="team"
+      className="relative top-96 z-10 lg:top-[480px] min-h-[720px]"
+    >
       <div className="container mx-auto">
         {/* text & image wrapper */}
         <motion.div className="flex flex-col lg:flex-row lg:gap-x-[120px] items-center lg:items-start">

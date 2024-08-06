@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 // import components
-import Nav from "../components/Nav.js";
-import Socials from "../components/Socials.js";
+import Nav from "./Nav.jsx";
+import Socials from "./Socials.jsx";
 
 // import Logo
 import Logo from "../assets/img/header/logo.png";

@@ -1,9 +1,9 @@
 import React from "react";
 
 // import components
-import Newsletter from "./Newsletter.js";
-import Copyright from "./Copyright.js";
-import Socials from "./Socials.js";
+import Newsletter from "./Newsletter.jsx";
+import Copyright from "./Copyright.jsx";
+import Socials from "./Socials.jsx";
 
 // import data
 import { footerData } from "../data.js";

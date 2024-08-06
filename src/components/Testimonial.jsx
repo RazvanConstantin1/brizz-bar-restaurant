@@ -1,7 +1,7 @@
 import React from "react";
 
 // import components
-import TestimonialCarousel from "../components/TestimonialCarousel.js";
+import TestimonialCarousel from "./TestimonialCarousel.jsx";
 
 // import data
 import { testimonialData } from "../data.js";
@@ -17,7 +17,10 @@ const Testimonial = () => {
   const { title, subtitle, modelImg, slider } = testimonialData;
 
   return (
-    <section className="relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px] bg-testimonial bg-cover bg-no-repeat">
+    <section
+      id="testimonials"
+      className="relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px] bg-testimonial bg-cover bg-no-repeat"
+    >
       <div className="container mx-auto">
         {/* text */}
         <motion.div
