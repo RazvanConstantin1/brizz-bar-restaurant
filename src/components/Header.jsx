@@ -55,21 +55,21 @@ const Header = () => {
 
   // render header conditionally based on routing address
   const pathname = window.location.pathname;
-
+  console.log(pathname);
   // event listener
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      // render header conditionally based on routing address
-      if (pathname === "/")
-        window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
+      window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
     });
-  });
+  }, []);
+
+  // TODO: solve the header bug when change the page
 
   return (
     <motion.header
       variants={headerVariants}
       // render header conditionally based on routing address
-      initial={pathname !== "/" ? "show" : "hidden"}
+      initial={pathname === "/home" ? "hidden" : "show"}
       animate={isActive ? "show" : ""}
       className="bg-pink-200 fixed w-full max-w-[1800px] z-50 py-4"
     >
@@ -114,8 +114,8 @@ const Header = () => {
             className="order-1 lg:order-none lg:ml-[9rem]"
             variants={fadeIn("down", "tween", 1.2, 1.4)}
           >
-            <NavLink to="/" alt="">
-              {/* if header is active make logo 90 x 90 else 107 x 107 */}
+            <NavLink to="/home" alt="">
+              {/* if header is active make logo 95 x 95 else 105 x 105 */}
               <img
                 className={`${
                   isActive ? "w-[95px] h-[95px]" : "w-[105px] h-[105px]"

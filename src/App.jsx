@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "/",
+        path: "/home",
         element: <Home />,
       },
       {
@@ -33,6 +33,7 @@ const App = () => {
   return (
     <div className="h-full bg-pattern bg-repeat max-w-[1800px] mx-auto overflow-hidden">
       <RouterProvider router={router} />
+
       <div className="h-[380px] md:h-[370px]"></div>
     </div>
   );
