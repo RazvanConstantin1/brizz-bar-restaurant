@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 // import components
 import Nav from "./Nav.jsx";
@@ -53,15 +53,28 @@ const Header = () => {
   // nav state
   const [nav, setNav] = useState(false);
 
-  // render header conditionally based on routing address
-  const pathname = window.location.pathname;
-  console.log(pathname);
   // event listener
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
     });
   }, []);
+  const navRef = useRef();
+
+  // close nav when
+  useEffect(() => {
+    function handler(event) {
+      console.log(navRef.current);
+      if (!navRef.current?.contains(event.target)) {
+        console.log("clicked outside");
+        setNav(false);
+      }
+    }
+
+    window.addEventListener("click", handler);
+
+    return () => window.removeEventListener("click", handler);
+  }, [setNav]);
 
   // TODO: solve the header bug when change the page
 
@@ -69,7 +82,7 @@ const Header = () => {
     <motion.header
       variants={headerVariants}
       // render header conditionally based on routing address
-      initial={pathname === "/home" ? "hidden" : "show"}
+      initial={"hidden"}
       animate={isActive ? "show" : ""}
       className="bg-pink-200 fixed w-full max-w-[1800px] z-50 py-4"
     >
@@ -81,11 +94,12 @@ const Header = () => {
       >
         <div className="flex justify-between items-center px-4 lg:px-0 relative text-white">
           {/* menu button */}
-          <motion.div
+          <motion.button
+            ref={navRef}
+            onClick={() => setNav(!nav)}
             className={`${
               nav ? "gap-y-0" : "gap-y-2"
             } flex flex-col items-center justify-center w-12 h-12 p-4 order-2 lg:order-none cursor-pointer border-2 rounded-full`}
-            onClick={() => setNav(!nav)}
           >
             {/* bar 1*/}
             <motion.div
@@ -108,7 +122,16 @@ const Header = () => {
               }}
               className="w-full h-[2px] bg-white"
             ></motion.div>
-          </motion.div>
+            {/* nav */}
+            <motion.div
+              variants={navVariants}
+              initial="hidden"
+              animate={nav ? "show" : ""}
+              className="absolute bg-accent-default w-[310px] h-[50vh] right-0 lg:left-0 top-[120px] bottom-0 z-50 rounded-lg shadow-xl"
+            >
+              <Nav />
+            </motion.div>
+          </motion.button>
           {/* logo */}
           <motion.div
             className="order-1 lg:order-none lg:ml-[9rem]"
@@ -131,15 +154,6 @@ const Header = () => {
             className="hidden lg:flex"
           >
             <Socials />
-          </motion.div>
-          {/* nav */}
-          <motion.div
-            variants={navVariants}
-            initial="hidden"
-            animate={nav ? "show" : ""}
-            className="absolute bg-accent-default w-[310px] h-[50vh] right-0 lg:left-0 top-[120px] bottom-0 z-50 rounded-lg shadow-xl"
-          >
-            <Nav />
           </motion.div>
         </div>
       </motion.div>

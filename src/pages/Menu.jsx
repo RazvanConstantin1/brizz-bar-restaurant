@@ -1,7 +1,9 @@
 function Menu() {
   return (
-    <div className="container mx-auto min-h-[980px] bg-menu flex justify-center items-center">
-      <div>Menu</div>
+    <div className=" bg-pattern ">
+      <div className="backdrop-brightness-[.35] container mx-auto min-h-[980px] flex justify-center items-center">
+        Menu
+      </div>
     </div>
   );
 }
