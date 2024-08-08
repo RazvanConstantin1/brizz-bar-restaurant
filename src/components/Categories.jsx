@@ -7,7 +7,7 @@ function Categories() {
   const [curOpen, setCurOpen] = useState();
 
   return (
-    <div className="flex justify-center items-center gap-0 sm:gap-8 mb-12 ">
+    <div className="flex justify-center items-center gap-2 text-xl sm:gap-8 mb-12 ">
       {categoryData.map((item, index) => {
         // destructure data
         const { icon, text } = item;
@@ -19,7 +19,7 @@ function Categories() {
             key={index}
             className={`${
               isActive ? "activeTab" : ""
-            } flex flex-col justify-center items-center p-2 text-md md:text-2xl cursor-pointer`}
+            } flex flex-col justify-center items-center p-2 text-md  cursor-pointer`}
             onClick={() => {
               setCurOpen(index);
             }}

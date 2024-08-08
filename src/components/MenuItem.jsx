@@ -1,6 +1,6 @@
 function MenuItem({ image, name, price, description }) {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center hover:scale-110 transition-transform duration-300">
       {/* image */}
       <div className="flex-1">
         <img src={image} alt="food" />

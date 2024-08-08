@@ -9,9 +9,9 @@ import {
   FaPizzaSlice,
   FaHamburger,
   FaWater,
-  FaDumpsterFire,
-  FaFish,
-  FaCookieBite,
+  // FaDumpsterFire,
+  // FaFish,
+  // FaCookieBite,
   FaGlassCheers,
 } from "react-icons/fa";
 // import images
@@ -220,18 +220,18 @@ export const categoryData = [
     icon: <FaWater />,
     text: "Pasta",
   },
-  {
-    icon: <FaFish />,
-    text: "Sea Food",
-  },
-  {
-    icon: <FaDumpsterFire />,
-    text: "Grill",
-  },
-  {
-    icon: <FaCookieBite />,
-    text: "Desert",
-  },
+  // {
+  //   icon: <FaFish />,
+  //   text: "Sea Food",
+  // },
+  // {
+  //   icon: <FaDumpsterFire />,
+  //   text: "Grill",
+  // },
+  // {
+  //   icon: <FaCookieBite />,
+  //   text: "Desert",
+  // },
   {
     icon: <FaGlassCheers />,
     text: "Drinks",
