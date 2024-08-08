@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 // import variants
 import { staggerContainer, fadeIn } from "../variants.js";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const headerVariants = {
   hidden: {
@@ -53,20 +53,24 @@ const Header = () => {
   // nav state
   const [nav, setNav] = useState(false);
 
+  // nav reference to close when clicked outside
+  const navRef = useRef();
+
+  // render header conditionally based on route path
+  const location = useLocation();
+  console.log(location.pathname);
+
   // event listener
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
     });
   }, []);
-  const navRef = useRef();
 
-  // close nav when
+  // close nav after click and also when clicked outside
   useEffect(() => {
     function handler(event) {
-      console.log(navRef.current);
       if (!navRef.current?.contains(event.target)) {
-        console.log("clicked outside");
         setNav(false);
       }
     }
@@ -82,7 +86,7 @@ const Header = () => {
     <motion.header
       variants={headerVariants}
       // render header conditionally based on routing address
-      initial={"hidden"}
+      initial={location.pathname === "/home" ? "hidden" : "show"}
       animate={isActive ? "show" : ""}
       className="bg-pink-200 fixed w-full max-w-[1800px] z-50 py-4"
     >
