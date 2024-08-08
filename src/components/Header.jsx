@@ -58,7 +58,6 @@ const Header = () => {
 
   // render header conditionally based on route path
   const location = useLocation();
-  console.log(location.pathname);
 
   // event listener
   useEffect(() => {
@@ -138,7 +137,7 @@ const Header = () => {
           </motion.button>
           {/* logo */}
           <motion.div
-            className="order-1 lg:order-none lg:ml-[9rem]"
+            className="order-1 lg:order-none lg:ml-[10rem]"
             variants={fadeIn("down", "tween", 1.2, 1.4)}
           >
             <NavLink to="/home" alt="">

@@ -87,6 +87,30 @@ export const menuData = {
       price: "$9.99",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
+    {
+      image: MenuImg1,
+      name: "Chocolate Cake",
+      price: "$7.99",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg2,
+      name: "Veggie Burger",
+      price: "$9.49",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg3,
+      name: "King Burger",
+      price: "$8.50",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg4,
+      name: "Mexican Burger",
+      price: "$9.99",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
   ],
 };
 
