@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
+// import data
+import { navData } from "../data.js";
 
 // import components
 import Nav from "./Nav.jsx";
@@ -11,40 +13,9 @@ import Logo from "../assets/img/header/logo.png";
 import { motion } from "framer-motion";
 
 // import variants
-import { staggerContainer, fadeIn } from "../variants.js";
+import { staggerContainer, fadeIn, headerVariants } from "../variants.js";
 import { NavLink, useLocation } from "react-router-dom";
-
-const headerVariants = {
-  hidden: {
-    padding: "64px 0 64px 0",
-    background: "none",
-  },
-  show: {
-    padding: "14px 0 14px 0",
-    background: "rgba(0,0,0,0.92)",
-    transition: {
-      type: "spring",
-    },
-  },
-};
-
-export const navVariants = {
-  hidden: {
-    clipPath: "circle(5.8% at 50% 0)",
-    opacity: 0,
-    transition: {
-      type: "spring",
-      delay: 0.2,
-      stiffness: 300,
-      damping: 140,
-    },
-  },
-  show: {
-    opacity: 1,
-    clipPath: "circle(130% at 50% 0)",
-    stiffness: 80,
-  },
-};
+import HamburgerButton from "./HamburgerButton.jsx";
 
 const Header = () => {
   // header state
@@ -97,44 +68,11 @@ const Header = () => {
       >
         <div className="flex justify-between items-center px-4 lg:px-0 relative text-white">
           {/* menu button */}
-          <motion.button
-            ref={navRef}
-            onClick={() => setNav(!nav)}
-            className={`${
-              nav ? "gap-y-0" : "gap-y-2"
-            } flex flex-col items-center justify-center w-12 h-12 p-4 order-2 lg:order-none cursor-pointer border-2 rounded-full`}
-          >
-            {/* bar 1*/}
-            <motion.div
-              initial={{
-                rotate: 0,
-              }}
-              animate={{
-                rotate: nav ? -45 : 0,
-                translateY: nav ? 2 : 0,
-              }}
-              className="w-full h-[2px] bg-white"
-            ></motion.div>
-            {/* bar 2*/}
-            <motion.div
-              initial={{
-                rotate: 0,
-              }}
-              animate={{
-                rotate: nav ? 45 : 0,
-              }}
-              className="w-full h-[2px] bg-white"
-            ></motion.div>
+          <HamburgerButton navRef={navRef} nav={nav} setNav={setNav}>
             {/* nav */}
-            <motion.div
-              variants={navVariants}
-              initial="hidden"
-              animate={nav ? "show" : ""}
-              className="absolute bg-accent-default w-[310px] h-[50vh] right-0 lg:left-0 top-[120px] bottom-0 z-50 rounded-lg shadow-xl"
-            >
-              <Nav />
-            </motion.div>
-          </motion.button>
+            <Nav nav={nav} navData={navData} />
+          </HamburgerButton>
+
           {/* logo */}
           <motion.div
             className="order-1 lg:order-none lg:ml-[10rem]"

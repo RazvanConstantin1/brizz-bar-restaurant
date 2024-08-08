@@ -47,6 +47,9 @@
   .bg-accent {
     @apply bg-accent-default;
   }
+  .activeTab {
+    @apply text-accent-default scale-125 translate-x-0 transition-all duration-300 transform ease-out shadow-inner shadow-accent-default rounded-3xl;
+  }
 }
 
 html {

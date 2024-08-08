@@ -6,15 +6,22 @@ import {
   FaPinterestP,
   FaDiscord,
   FaPhone,
+  FaPizzaSlice,
+  FaHamburger,
+  FaWater,
+  FaDumpsterFire,
+  FaFish,
+  FaCookieBite,
+  FaGlassCheers,
 } from "react-icons/fa";
 // import images
 import AboutImg from "../src/assets/img/about/plate.png";
 import ModelWhiteImg from "../src/assets/img/model-white.png";
 import ModelBlackImg from "../src/assets/img/model-black.png";
-import MenuImg1 from "../src/assets/img/menu/1.png";
-import MenuImg2 from "../src/assets/img/menu/2.png";
-import MenuImg3 from "../src/assets/img/menu/3.png";
-import MenuImg4 from "../src/assets/img/menu/4.png";
+import MenuImg1 from "../src/assets/img/featuredMenu/1.png";
+import MenuImg2 from "../src/assets/img/featuredMenu/2.png";
+import MenuImg3 from "../src/assets/img/featuredMenu/3.png";
+import MenuImg4 from "../src/assets/img/featuredMenu/4.png";
 import SignatureImg from "../src/assets/img/team/signature.png";
 import ChefImg from "../src/assets/img/team/chef.png";
 import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
@@ -199,6 +206,37 @@ export const footerData = {
     ],
   },
 };
+
+export const categoryData = [
+  {
+    icon: <FaPizzaSlice />,
+    text: "Pizza",
+  },
+  {
+    icon: <FaHamburger />,
+    text: "Burger",
+  },
+  {
+    icon: <FaWater />,
+    text: "Pasta",
+  },
+  {
+    icon: <FaFish />,
+    text: "Sea Food",
+  },
+  {
+    icon: <FaDumpsterFire />,
+    text: "Grill",
+  },
+  {
+    icon: <FaCookieBite />,
+    text: "Desert",
+  },
+  {
+    icon: <FaGlassCheers />,
+    text: "Drinks",
+  },
+];
 
 export const callData = {
   icon: <FaPhone />,
