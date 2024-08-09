@@ -26,14 +26,14 @@ import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
 export const navData = [
-  { href: "/home", name: "home" },
-  { href: "/home#about", name: "about" },
-  { href: "/home#featuredMenu", name: "featured Menu" },
-  { href: "/home#team", name: "team" },
-  { href: "/home#testimonials", name: "testimonials" },
-  { href: "/home#reservation", name: "reservation" },
-  { href: "/contact", name: "contact" },
-  { href: "/menu", name: "menu" },
+  { href: "/brizz-bar-restaurant", name: "home" },
+  { href: "#about", name: "about" },
+  { href: "#featuredMenu", name: "featured Menu" },
+  { href: "#team", name: "team" },
+  { href: "#testimonials", name: "testimonials" },
+  { href: "#reservation", name: "reservation" },
+  { href: "/brizz-bar-restaurant/contact", name: "contact" },
+  { href: "/brizz-bar-restaurant/menu", name: "menu" },
 ];
 
 export const heroData = {

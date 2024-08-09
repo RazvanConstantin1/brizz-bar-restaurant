@@ -14,15 +14,15 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "/home",
+        path: "brizz-bar-restaurant/",
         element: <Home />,
       },
       {
-        path: "/menu",
+        path: "brizz-bar-restaurant/menu",
         element: <Menu />,
       },
       {
-        path: "/contact",
+        path: "brizz-bar-restaurant/contact",
         element: <Contact />,
       },
     ],

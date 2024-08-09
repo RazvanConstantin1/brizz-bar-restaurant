@@ -1,9 +1,20 @@
+// import components
 import MenuItem from "./MenuItem.jsx";
+
+// import motion
+import { motion } from "framer-motion";
+
+// import variants
+import { fadeIn } from "../variants.js";
 
 function MenuCategory({ category }) {
   console.log(category);
   return (
-    <div>
+    <motion.div
+      variants={fadeIn("up", "tween", 0.6, 1.6)}
+      initial="hidden"
+      whileInView={"show"}
+    >
       {category.map((item, index) => {
         const { name, menuItems, icon } = item;
         return (
@@ -19,7 +30,7 @@ function MenuCategory({ category }) {
           </div>
         );
       })}
-    </div>
+    </motion.div>
   );
 }
 
