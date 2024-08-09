@@ -5,16 +5,17 @@ function MenuCategory({ category }) {
   return (
     <div>
       {category.map((item, index) => {
-        const { name, menuItems, href } = item;
-        console.log(href);
+        const { name, menuItems, icon } = item;
         return (
           <div
-            id={href}
             key={index}
             className="flex flex-col justify-center items-center gap-8 mb-8"
           >
-            <h1 className="text-2xl">{name}</h1>
-            <MenuItem menuItems={menuItems} href={href} />
+            <div className="flex justify-center items-center gap-4">
+              <div>{icon}</div>
+              <h1 className="text-2xl">{name}</h1>
+            </div>
+            <MenuItem menuItems={menuItems} />
           </div>
         );
       })}

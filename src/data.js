@@ -9,9 +9,6 @@ import {
   FaPizzaSlice,
   FaHamburger,
   FaWater,
-  FaDumpsterFire,
-  FaFish,
-  FaCookieBite,
   FaGlassCheers,
 } from "react-icons/fa";
 // import images
@@ -69,10 +66,37 @@ export const menuData = {
   subtitle: "view all menu for tasty meal today",
   modelImg: ModelWhiteImg,
   btnText: "view complete menu",
+  menuItems: [
+    {
+      image: MenuImg1,
+      name: "Chocolate Cake",
+      price: "$7.99",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg2,
+      name: "Veggie Burger",
+      price: "$9.49",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg3,
+      name: "King Burger",
+      price: "$8.50",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+    {
+      image: MenuImg4,
+      name: "Mexican Burger",
+      price: "$9.99",
+      description: "Class aptent taciti ciosqu litora torquent per",
+    },
+  ],
   menuCategory: [
     {
       category: [
         {
+          icon: <FaPizzaSlice />,
           href: "/home#pizza",
           name: "Pizza",
           menuItems: [
@@ -98,6 +122,7 @@ export const menuData = {
         },
         {
           href: "/menu#burger",
+          icon: <FaHamburger />,
           name: "Burger",
           menuItems: [
             {
@@ -128,6 +153,7 @@ export const menuData = {
         },
         {
           href: "/menu#pasta",
+          icon: <FaWater />,
           name: "Pasta",
           menuItems: [
             {
@@ -158,6 +184,7 @@ export const menuData = {
         },
         {
           href: "/menu#drinks",
+          icon: <FaGlassCheers />,
           name: "Drinks",
           menuItems: [
             {
@@ -189,55 +216,6 @@ export const menuData = {
       ],
     },
   ],
-  //   {
-  //     image: MenuImg1,
-  //     name: "Chocolate Cake",
-  //     price: "$7.99",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg2,
-  //     name: "Veggie Burger",
-  //     price: "$9.49",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg3,
-  //     name: "King Burger",
-  //     price: "$8.50",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg4,
-  //     name: "Mexican Burger",
-  //     price: "$9.99",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg1,
-  //     name: "Chocolate Cake",
-  //     price: "$7.99",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg2,
-  //     name: "Veggie Burger",
-  //     price: "$9.49",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg3,
-  //     name: "King Burger",
-  //     price: "$8.50",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  //   {
-  //     image: MenuImg4,
-  //     name: "Mexican Burger",
-  //     price: "$9.99",
-  //     description: "Class aptent taciti ciosqu litora torquent per",
-  //   },
-  // ],
 };
 
 export const teamData = {
@@ -325,37 +303,6 @@ export const footerData = {
     ],
   },
 };
-
-export const categoryData = [
-  {
-    icon: <FaPizzaSlice />,
-    text: "Pizza",
-  },
-  {
-    icon: <FaHamburger />,
-    text: "Burger",
-  },
-  {
-    icon: <FaWater />,
-    text: "Pasta",
-  },
-  {
-    icon: <FaFish />,
-    text: "Sea Food",
-  },
-  {
-    icon: <FaDumpsterFire />,
-    text: "Grill",
-  },
-  {
-    icon: <FaCookieBite />,
-    text: "Desert",
-  },
-  {
-    icon: <FaGlassCheers />,
-    text: "Drinks",
-  },
-];
 
 export const callData = {
   icon: <FaPhone />,

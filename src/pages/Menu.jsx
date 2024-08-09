@@ -1,6 +1,5 @@
 // import components
 
-import Categories from "../components/Categories.jsx";
 import Header from "../components/Header.jsx";
 import MenuCategory from "../components/MenuCategory.jsx";
 
@@ -22,7 +21,7 @@ function Menu() {
               <p className="text-center text-accent-default text-3xl mb-8 mr-3">
                 Menu
               </p>
-              <Categories />
+              {/* <Categories /> */}
             </div>
             <div className="flex flex-col justify-center items-center gap-4">
               {menuCategory.map((item, index) => {
