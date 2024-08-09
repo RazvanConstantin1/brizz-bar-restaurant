@@ -69,56 +69,175 @@ export const menuData = {
   subtitle: "view all menu for tasty meal today",
   modelImg: ModelWhiteImg,
   btnText: "view complete menu",
-  menuItems: [
+  menuCategory: [
     {
-      image: MenuImg1,
-      name: "Chocolate Cake",
-      price: "$7.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg2,
-      name: "Veggie Burger",
-      price: "$9.49",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg3,
-      name: "King Burger",
-      price: "$8.50",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg4,
-      name: "Mexican Burger",
-      price: "$9.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg1,
-      name: "Chocolate Cake",
-      price: "$7.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg2,
-      name: "Veggie Burger",
-      price: "$9.49",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg3,
-      name: "King Burger",
-      price: "$8.50",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg4,
-      name: "Mexican Burger",
-      price: "$9.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      category: [
+        {
+          href: "/home#pizza",
+          name: "Pizza",
+          menuItems: [
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg2,
+              name: "Veggie Burger",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg2,
+              name: "Veggie Burger",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+          ],
+        },
+        {
+          href: "/menu#burger",
+          name: "Burger",
+          menuItems: [
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg2,
+              name: "Veggie Burger",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg3,
+              name: "King Burger",
+              price: "$8.50",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+          ],
+        },
+        {
+          href: "/menu#pasta",
+          name: "Pasta",
+          menuItems: [
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg2,
+              name: "Veggie Burger",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg3,
+              name: "King Burger",
+              price: "$8.50",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+          ],
+        },
+        {
+          href: "/menu#drinks",
+          name: "Drinks",
+          menuItems: [
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg1,
+              name: "Chocolate Cake",
+              price: "$7.99",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg2,
+              name: "Veggie Burger",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: MenuImg3,
+              name: "King Burger",
+              price: "$8.50",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+          ],
+        },
+      ],
     },
   ],
+  //   {
+  //     image: MenuImg1,
+  //     name: "Chocolate Cake",
+  //     price: "$7.99",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg2,
+  //     name: "Veggie Burger",
+  //     price: "$9.49",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg3,
+  //     name: "King Burger",
+  //     price: "$8.50",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg4,
+  //     name: "Mexican Burger",
+  //     price: "$9.99",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg1,
+  //     name: "Chocolate Cake",
+  //     price: "$7.99",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg2,
+  //     name: "Veggie Burger",
+  //     price: "$9.49",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg3,
+  //     name: "King Burger",
+  //     price: "$8.50",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  //   {
+  //     image: MenuImg4,
+  //     name: "Mexican Burger",
+  //     price: "$9.99",
+  //     description: "Class aptent taciti ciosqu litora torquent per",
+  //   },
+  // ],
 };
 
 export const teamData = {
@@ -208,18 +327,9 @@ export const footerData = {
 };
 
 export const categoryData = [
-  {
-    icon: <FaPizzaSlice />,
-    text: "Pizza",
-  },
-  {
-    icon: <FaHamburger />,
-    text: "Burger",
-  },
-  {
-    icon: <FaWater />,
-    text: "Pasta",
-  },
+  { href: "/menu#pizza", icon: <FaPizzaSlice />, text: "Pizza" },
+  { href: "/menu#burger", icon: <FaHamburger />, text: "Burger" },
+  { href: "/menu#pasta", icon: <FaWater />, text: "Pasta" },
   // {
   //   icon: <FaFish />,
   //   text: "Sea Food",
@@ -232,10 +342,7 @@ export const categoryData = [
   //   icon: <FaCookieBite />,
   //   text: "Desert",
   // },
-  {
-    icon: <FaGlassCheers />,
-    text: "Drinks",
-  },
+  { href: "/menu#drinks", icon: <FaGlassCheers />, text: "Drinks" },
 ];
 
 export const callData = {

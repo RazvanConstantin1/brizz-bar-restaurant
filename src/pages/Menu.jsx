@@ -2,7 +2,7 @@
 
 import Categories from "../components/Categories.jsx";
 import Header from "../components/Header.jsx";
-import MenuItem from "../components/MenuItem.jsx";
+import MenuCategory from "../components/MenuCategory.jsx";
 
 // import data
 import { menuData } from "../data.js";
@@ -15,7 +15,8 @@ import { fadeIn } from "../variants.js";
 
 function Menu() {
   // destructure data
-  const { menuItems } = menuData;
+  const { menuCategory } = menuData;
+  console.log(menuCategory);
 
   return (
     <>
@@ -34,22 +35,30 @@ function Menu() {
               </p>
               <Categories />
             </div>
+            <div className="flex flex-col justify-center items-center gap-4">
+              {menuCategory.map((item, index) => {
+                const { category } = item;
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-4">
+                return <MenuCategory category={category} key={index} />;
+              })}
+            </div>
+            {/* <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-4">
               {menuItems.map((item, index) => {
                 const { image, name, price, description } = item;
 
                 return (
-                  <MenuItem
-                    key={index}
-                    image={image}
-                    name={name}
-                    price={price}
-                    description={description}
-                  />
+                  <>
+                    <MenuItem
+                      key={index}
+                      image={image}
+                      name={name}
+                      price={price}
+                      description={description}
+                    />
+                  </>
                 );
               })}
-            </div>
+            </div> */}
             {/* button */}
             <div className="flex justify-center mt-12">
               <button className="btn">Order Now</button>
