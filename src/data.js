@@ -9,9 +9,9 @@ import {
   FaPizzaSlice,
   FaHamburger,
   FaWater,
-  // FaDumpsterFire,
-  // FaFish,
-  // FaCookieBite,
+  FaDumpsterFire,
+  FaFish,
+  FaCookieBite,
   FaGlassCheers,
 } from "react-icons/fa";
 // import images
@@ -327,22 +327,34 @@ export const footerData = {
 };
 
 export const categoryData = [
-  { href: "/menu#pizza", icon: <FaPizzaSlice />, text: "Pizza" },
-  { href: "/menu#burger", icon: <FaHamburger />, text: "Burger" },
-  { href: "/menu#pasta", icon: <FaWater />, text: "Pasta" },
-  // {
-  //   icon: <FaFish />,
-  //   text: "Sea Food",
-  // },
-  // {
-  //   icon: <FaDumpsterFire />,
-  //   text: "Grill",
-  // },
-  // {
-  //   icon: <FaCookieBite />,
-  //   text: "Desert",
-  // },
-  { href: "/menu#drinks", icon: <FaGlassCheers />, text: "Drinks" },
+  {
+    icon: <FaPizzaSlice />,
+    text: "Pizza",
+  },
+  {
+    icon: <FaHamburger />,
+    text: "Burger",
+  },
+  {
+    icon: <FaWater />,
+    text: "Pasta",
+  },
+  {
+    icon: <FaFish />,
+    text: "Sea Food",
+  },
+  {
+    icon: <FaDumpsterFire />,
+    text: "Grill",
+  },
+  {
+    icon: <FaCookieBite />,
+    text: "Desert",
+  },
+  {
+    icon: <FaGlassCheers />,
+    text: "Drinks",
+  },
 ];
 
 export const callData = {

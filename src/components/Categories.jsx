@@ -11,7 +11,7 @@ function Categories() {
   const [curOpen, setCurOpen] = useState();
 
   return (
-    <div className="flex justify-center items-center gap-2 text-xl sm:gap-8 mb-12">
+    <div className="flex justify-center items-center gap-2 text-xl sm:gap-8 mb-12 ">
       {categoryData.map((item, index) => {
         // destructure data
         const { icon, text, href } = item;
@@ -19,21 +19,17 @@ function Categories() {
         let isActive = curOpen === index;
 
         return (
-          <div>
-            <NavHashLink to={href}>
-              <div
-                key={index}
-                className={`${
-                  isActive ? "activeTab" : ""
-                } flex flex-col justify-center items-center p-2 text-md  cursor-pointer hover:text-accent-default`}
-                onClick={() => {
-                  setCurOpen(index);
-                }}
-              >
-                <div>{icon}</div>
-                <div>{text}</div>
-              </div>
-            </NavHashLink>
+          <div
+            key={index}
+            className={`${
+              isActive ? "activeTab" : ""
+            } flex flex-col justify-center items-center p-2 text-md md:text-2xl cursor-pointer`}
+            onClick={() => {
+              setCurOpen(index);
+            }}
+          >
+            <div>{icon}</div>
+            <div>{text}</div>
           </div>
         );
       })}
