@@ -1,6 +1,6 @@
 function MenuItem({ menuItems }) {
   return (
-    <div className="flex justify-center items-center gap-4">
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
       {menuItems.map((item, index) => {
         const { image, name, price, description } = item;
         return (

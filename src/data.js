@@ -5,7 +5,6 @@ import {
   FaInstagram,
   FaPinterestP,
   FaDiscord,
-  FaPhone,
   FaPizzaSlice,
   FaHamburger,
   FaWater,
@@ -32,7 +31,6 @@ export const navData = [
   { href: "#team", name: "team" },
   { href: "#testimonials", name: "testimonials" },
   { href: "#reservation", name: "reservation" },
-  { href: "/brizz-bar-restaurant/contact", name: "contact" },
   { href: "/brizz-bar-restaurant/menu", name: "menu" },
 ];
 
@@ -302,8 +300,4 @@ export const footerData = {
       { href: "/", icon: <FaDiscord /> },
     ],
   },
-};
-
-export const callData = {
-  icon: <FaPhone />,
 };

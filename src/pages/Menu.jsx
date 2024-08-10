@@ -30,23 +30,7 @@ function Menu() {
                 return <MenuCategory category={category} key={index} />;
               })}
             </div>
-            {/* <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-4">
-              {menuItems.map((item, index) => {
-                const { image, name, price, description } = item;
 
-                return (
-                  <>
-                    <MenuItem
-                      key={index}
-                      image={image}
-                      name={name}
-                      price={price}
-                      description={description}
-                    />
-                  </>
-                );
-              })}
-            </div> */}
             {/* button */}
             <div className="flex justify-center mt-12">
               <button className="btn">Order Now</button>

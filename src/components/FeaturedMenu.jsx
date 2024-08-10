@@ -13,7 +13,6 @@ const FeaturedMenu = () => {
   // destructure menu data
 
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
-  console.log(menuItems);
   return (
     <section id="featuredMenu" className="bg-accent-default min-h-[780px]">
       {/* background */}
