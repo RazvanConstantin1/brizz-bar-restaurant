@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 // import variants
 import { fadeIn, staggerContainer } from "../variants.js";
+import { NavLink } from "react-router-dom";
 
 const FeaturedMenu = () => {
   // destructure menu data
@@ -101,7 +102,9 @@ const FeaturedMenu = () => {
               })}
             </div>
           </div>
-          <button className="btn mx-auto capitalize mb-8">{btnText}</button>
+          <NavLink to="/brizz-bar-restaurant/menu">
+            <button className="btn mx-auto capitalize mb-8">{btnText}</button>
+          </NavLink>
         </div>
       </motion.div>
     </section>
