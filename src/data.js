@@ -44,7 +44,7 @@ import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
 export const navData = [
-  { href: "/brizz-bar-restaurant", name: "home" },
+  { href: "/brizz-bar-restaurant/", name: "home" },
   { href: "#about", name: "about" },
   { href: "#featuredMenu", name: "featured Menu" },
   { href: "#team", name: "team" },
