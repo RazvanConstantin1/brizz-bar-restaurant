@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/brizz-bar-restaurant/static/css/main.46b67094.css",
-    "main.js": "/brizz-bar-restaurant/static/js/main.b31ff847.js",
+    "main.css": "/brizz-bar-restaurant/static/css/main.f1c51390.css",
+    "main.js": "/brizz-bar-restaurant/static/js/main.634071cd.js",
+    "static/media/pizza-3.jpg": "/brizz-bar-restaurant/static/media/pizza-3.990517e9fb2db861e617.jpg",
+    "static/media/pizza-2.jpg": "/brizz-bar-restaurant/static/media/pizza-2.e27b5f5c65846156c03b.jpg",
     "static/media/bg.png": "/brizz-bar-restaurant/static/media/bg.51b1e69cded5efe1b202.png",
+    "static/media/pizza-1.jpg": "/brizz-bar-restaurant/static/media/pizza-1.6b913c31407d1a2c8859.jpg",
+    "static/media/burger-4.jpg": "/brizz-bar-restaurant/static/media/burger-4.fcc4fdf4aeb2bc4e7452.jpg",
+    "static/media/pasta-3.jpg": "/brizz-bar-restaurant/static/media/pasta-3.2c1c24f0dd02fde42a5b.jpg",
     "static/media/body-bg-pattern.png": "/brizz-bar-restaurant/static/media/body-bg-pattern.6c31ed84fb390068021b.png",
+    "static/media/pasta-1.webp": "/brizz-bar-restaurant/static/media/pasta-1.e8bdd5b1c3a222c09b75.webp",
+    "static/media/pasta-4.jpg.webp": "/brizz-bar-restaurant/static/media/pasta-4.jpg.c0815025dc184d74543b.webp",
     "static/media/bg.jpg": "/brizz-bar-restaurant/static/media/bg.33136c77e1da8272f2c1.jpg",
+    "static/media/pizza-4.jpg": "/brizz-bar-restaurant/static/media/pizza-4.0568372802d37469acb1.jpg",
     "static/media/chef.png": "/brizz-bar-restaurant/static/media/chef.003aa9e5d022f4a08796.png",
     "static/media/plate.png": "/brizz-bar-restaurant/static/media/plate.6d8f8b4c8469f63b261f.png",
     "static/media/3.png": "/brizz-bar-restaurant/static/media/3.d345df16f2bd6d166400.png",
+    "static/media/burger-2.png": "/brizz-bar-restaurant/static/media/burger-2.d345df16f2bd6d166400.png",
     "static/media/4.png": "/brizz-bar-restaurant/static/media/4.61136917015d284d66b0.png",
+    "static/media/burger-3.png": "/brizz-bar-restaurant/static/media/burger-3.61136917015d284d66b0.png",
     "static/media/1.png": "/brizz-bar-restaurant/static/media/1.4acdf19563de03364a62.png",
     "static/media/logo.png": "/brizz-bar-restaurant/static/media/logo.6be149e20c63fc16f3e3.png",
+    "static/media/pasta-2.jpg": "/brizz-bar-restaurant/static/media/pasta-2.5a9c32a3118e95305435.jpg",
     "static/media/2.png": "/brizz-bar-restaurant/static/media/2.ef2b25abfa7d6fb8cffb.png",
+    "static/media/burger-1.png": "/brizz-bar-restaurant/static/media/burger-1.ef2b25abfa7d6fb8cffb.png",
     "static/media/avatar1.png": "/brizz-bar-restaurant/static/media/avatar1.27a81bcea579cdc1cf92.png",
     "static/media/avatar3.png": "/brizz-bar-restaurant/static/media/avatar3.fe5de891cf00cdb0534c.png",
     "static/media/avatar2.png": "/brizz-bar-restaurant/static/media/avatar2.e728d8a774b3109f5951.png",
     "index.html": "/brizz-bar-restaurant/index.html",
     "static/media/arrow-left.svg": "/brizz-bar-restaurant/static/media/arrow-left.77d5a5d78b1b76ce16f3.svg",
     "static/media/arrow-right.svg": "/brizz-bar-restaurant/static/media/arrow-right.c331d5c20dca215affc8.svg",
-    "main.46b67094.css.map": "/brizz-bar-restaurant/static/css/main.46b67094.css.map",
-    "main.b31ff847.js.map": "/brizz-bar-restaurant/static/js/main.b31ff847.js.map"
+    "main.f1c51390.css.map": "/brizz-bar-restaurant/static/css/main.f1c51390.css.map",
+    "main.634071cd.js.map": "/brizz-bar-restaurant/static/js/main.634071cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.46b67094.css",
-    "static/js/main.b31ff847.js"
+    "static/css/main.f1c51390.css",
+    "static/js/main.634071cd.js"
   ]
 }
