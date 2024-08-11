@@ -14,10 +14,19 @@ import {
 import AboutImg from "../src/assets/img/about/plate.png";
 import ModelWhiteImg from "../src/assets/img/model-white.png";
 import ModelBlackImg from "../src/assets/img/model-black.png";
+
+// featured menu
 import MenuImg1 from "../src/assets/img/featuredMenu/1.png";
 import MenuImg2 from "../src/assets/img/featuredMenu/2.png";
 import MenuImg3 from "../src/assets/img/featuredMenu/3.png";
 import MenuImg4 from "../src/assets/img/featuredMenu/4.png";
+
+// menu page
+import PizzaImg1 from "../src/assets/img/menu/pizza/pizza-1.jpg";
+import PizzaImg2 from "../src/assets/img/menu/pizza/pizza-2.jpg";
+import PizzaImg3 from "../src/assets/img/menu/pizza/pizza-3.jpg";
+import PizzaImg4 from "../src/assets/img/menu/pizza/pizza-4.jpg";
+
 import SignatureImg from "../src/assets/img/team/signature.png";
 import ChefImg from "../src/assets/img/team/chef.png";
 import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
@@ -99,20 +108,26 @@ export const menuData = {
           name: "Pizza",
           menuItems: [
             {
-              image: MenuImg1,
-              name: "Chocolate Cake",
+              image: PizzaImg1,
+              name: "Pizza Salami",
               price: "$7.99",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg2,
-              name: "Veggie Burger",
+              image: PizzaImg2,
+              name: "Pizza Pineapple",
               price: "$9.49",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg2,
-              name: "Veggie Burger",
+              image: PizzaImg3,
+              name: "Pizza Mozzarella",
+              price: "$9.49",
+              description: "Class aptent taciti ciosqu litora torquent per",
+            },
+            {
+              image: PizzaImg4,
+              name: "Pizza Exotic",
               price: "$9.49",
               description: "Class aptent taciti ciosqu litora torquent per",
             },

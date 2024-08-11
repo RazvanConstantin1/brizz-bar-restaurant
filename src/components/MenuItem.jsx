@@ -9,8 +9,8 @@ function MenuItem({ menuItems }) {
             className="flex flex-col justify-center items-center hover:scale-110 transition-transform duration-300"
           >
             {/* image */}
-            <div className="flex-1">
-              <img src={image} alt="food" />
+            <div className="h-[250px] w-[250px]">
+              <img src={image} alt="food" className="h-[100%] w-[100%]" />
             </div>
             {/* name */}
             <div className="text-xl font-semibold text-dark xl:text-2xl">
