@@ -80,7 +80,7 @@ const Header = () => {
             className="order-1 lg:order-none lg:ml-[10rem]"
             variants={fadeIn("down", "tween", 1.2, 1.4)}
           >
-            <NavLink to="/brizz-bar-restaurant/" alt="">
+            <NavLink to="/brizz-bar-restaurant" alt="">
               {/* if header is active make logo 95 x 95 else 105 x 105 */}
               <img
                 className={`${
