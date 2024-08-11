@@ -27,6 +27,16 @@ import PizzaImg2 from "../src/assets/img/menu/pizza/pizza-2.jpg";
 import PizzaImg3 from "../src/assets/img/menu/pizza/pizza-3.jpg";
 import PizzaImg4 from "../src/assets/img/menu/pizza/pizza-4.jpg";
 
+import BurgerImg1 from "../src/assets/img/menu/burger/burger-1.png";
+import BurgerImg2 from "../src/assets/img/menu/burger/burger-2.png";
+import BurgerImg3 from "../src/assets/img/menu/burger/burger-3.png";
+import BurgerImg4 from "../src/assets/img/menu/burger/burger-4.jpg";
+
+import PastaImg1 from "../src/assets/img/menu/pasta/pasta-1.webp";
+import PastaImg2 from "../src/assets/img/menu/pasta/pasta-2.jpg";
+import PastaImg3 from "../src/assets/img/menu/pasta/pasta-3.jpg";
+import PastaImg4 from "../src/assets/img/menu/pasta/pasta-4.jpg.webp";
+
 import SignatureImg from "../src/assets/img/team/signature.png";
 import ChefImg from "../src/assets/img/team/chef.png";
 import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
@@ -139,25 +149,25 @@ export const menuData = {
           name: "Burger",
           menuItems: [
             {
-              image: MenuImg1,
-              name: "Chocolate Cake",
+              image: BurgerImg1,
+              name: "Special Burger",
               price: "$7.99",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg1,
-              name: "Chocolate Cake",
+              image: BurgerImg2,
+              name: "Home Burger",
               price: "$7.99",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg2,
+              image: BurgerImg3,
               name: "Veggie Burger",
               price: "$9.49",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg3,
+              image: BurgerImg4,
               name: "King Burger",
               price: "$8.50",
               description: "Class aptent taciti ciosqu litora torquent per",
@@ -170,62 +180,62 @@ export const menuData = {
           name: "Pasta",
           menuItems: [
             {
-              image: MenuImg1,
-              name: "Chocolate Cake",
+              image: PastaImg1,
+              name: "Carbonara",
               price: "$7.99",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg1,
-              name: "Chocolate Cake",
+              image: PastaImg2,
+              name: "Primavera",
               price: "$7.99",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg2,
-              name: "Veggie Burger",
+              image: PastaImg3,
+              name: "Bolognese",
               price: "$9.49",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
             {
-              image: MenuImg3,
-              name: "King Burger",
+              image: PastaImg4,
+              name: "Al Forno",
               price: "$8.50",
               description: "Class aptent taciti ciosqu litora torquent per",
             },
           ],
         },
-        {
-          href: "/menu#drinks",
-          icon: <FaGlassCheers />,
-          name: "Drinks",
-          menuItems: [
-            {
-              image: MenuImg1,
-              name: "Chocolate Cake",
-              price: "$7.99",
-              description: "Class aptent taciti ciosqu litora torquent per",
-            },
-            {
-              image: MenuImg1,
-              name: "Chocolate Cake",
-              price: "$7.99",
-              description: "Class aptent taciti ciosqu litora torquent per",
-            },
-            {
-              image: MenuImg2,
-              name: "Veggie Burger",
-              price: "$9.49",
-              description: "Class aptent taciti ciosqu litora torquent per",
-            },
-            {
-              image: MenuImg3,
-              name: "King Burger",
-              price: "$8.50",
-              description: "Class aptent taciti ciosqu litora torquent per",
-            },
-          ],
-        },
+        // {
+        //   href: "/menu#drinks",
+        //   icon: <FaGlassCheers />,
+        //   name: "Drinks",
+        //   menuItems: [
+        //     {
+        //       image: MenuImg1,
+        //       name: "Chocolate Cake",
+        //       price: "$7.99",
+        //       description: "Class aptent taciti ciosqu litora torquent per",
+        //     },
+        //     {
+        //       image: MenuImg1,
+        //       name: "Chocolate Cake",
+        //       price: "$7.99",
+        //       description: "Class aptent taciti ciosqu litora torquent per",
+        //     },
+        //     {
+        //       image: MenuImg2,
+        //       name: "Veggie Burger",
+        //       price: "$9.49",
+        //       description: "Class aptent taciti ciosqu litora torquent per",
+        //     },
+        //     {
+        //       image: MenuImg3,
+        //       name: "King Burger",
+        //       price: "$8.50",
+        //       description: "Class aptent taciti ciosqu litora torquent per",
+        //     },
+        //   ],
+        // },
       ],
     },
   ],
