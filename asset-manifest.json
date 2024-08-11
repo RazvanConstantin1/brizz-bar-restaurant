@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brizz-bar-restaurant/static/css/main.f1c51390.css",
-    "main.js": "/brizz-bar-restaurant/static/js/main.634071cd.js",
+    "main.css": "/brizz-bar-restaurant/static/css/main.2cc2d469.css",
+    "main.js": "/brizz-bar-restaurant/static/js/main.4783dd91.js",
     "static/media/pizza-3.jpg": "/brizz-bar-restaurant/static/media/pizza-3.990517e9fb2db861e617.jpg",
     "static/media/pizza-2.jpg": "/brizz-bar-restaurant/static/media/pizza-2.e27b5f5c65846156c03b.jpg",
     "static/media/bg.png": "/brizz-bar-restaurant/static/media/bg.51b1e69cded5efe1b202.png",
@@ -30,11 +30,11 @@
     "index.html": "/brizz-bar-restaurant/index.html",
     "static/media/arrow-left.svg": "/brizz-bar-restaurant/static/media/arrow-left.77d5a5d78b1b76ce16f3.svg",
     "static/media/arrow-right.svg": "/brizz-bar-restaurant/static/media/arrow-right.c331d5c20dca215affc8.svg",
-    "main.f1c51390.css.map": "/brizz-bar-restaurant/static/css/main.f1c51390.css.map",
-    "main.634071cd.js.map": "/brizz-bar-restaurant/static/js/main.634071cd.js.map"
+    "main.2cc2d469.css.map": "/brizz-bar-restaurant/static/css/main.2cc2d469.css.map",
+    "main.4783dd91.js.map": "/brizz-bar-restaurant/static/js/main.4783dd91.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1c51390.css",
-    "static/js/main.634071cd.js"
+    "static/css/main.2cc2d469.css",
+    "static/js/main.4783dd91.js"
   ]
 }
