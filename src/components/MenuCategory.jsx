@@ -22,7 +22,7 @@ function MenuCategory({ category }) {
             key={index}
             className="flex flex-col justify-center items-center gap-8 mb-8"
           >
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-center items-center gap-4 mr-3">
               <div>{icon}</div>
               <h1 className="text-2xl">{name}</h1>
             </div>

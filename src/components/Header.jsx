@@ -56,7 +56,9 @@ const Header = () => {
     <motion.header
       variants={headerVariants}
       // render header conditionally based on routing address
-      initial={location.pathname === "/home" ? "hidden" : "show"}
+      initial={
+        location.pathname === "/brizz-bar-restaurant" ? "hidden" : "show"
+      }
       animate={isActive ? "show" : ""}
       className="bg-pink-200 fixed w-full max-w-[1800px] z-50 py-4"
     >
